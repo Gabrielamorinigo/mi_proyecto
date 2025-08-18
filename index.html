@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/bf8c94dfcd.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>InmoHogar</title>
+  </head>
+  <body>
+    <header>
+      <a href="index.html"
+        ><img class="logo" src="img/logo-removebg-preview.png" alt="logo"
+      /></a>
+      <button class="abrir-menu" id="abrir">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <nav class="nav" id="nav">
+        <button class="cerrar-menu" id="cerrar">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <ul class="nav-list">
+          <li><a href="sobrenosotros.html">Nosotros</a></li>
+          <li><a href="alquilar.html">Alquilar</a></li>
+          <li><a href="comprar.html">Comprar</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="portada">
+        <div class="slider">
+          <div class="slide slide1 active"></div>
+          <div class="slide slide2"></div>
+          <div class="slide slide3"></div>
+        </div>
+        <div class="portada-contenido">
+          <h2>Bienvenidos</h2>
+          <p>Tu próxima propiedad te espera</p>
+          <a href="#destacadas" class="btn-principal"> Propiedades</a>
+        </div>
+      </section>
+
+      <section class="destacadas" id="destacadas">
+        <h3>Propiedades Destacadas</h3>
+        <div class="propiedades-grid">
+          <div class="propiedad">
+            <img src="img/imagen1.jpg" alt="Casa en venta" />
+            <h4>Chalet con jardín privado</h4>
+            <p>U$S 750.000</p>
+            <p class="iconhouse">
+              5 <i class="fa-solid fa-bed"></i> 3
+              <i class="fa-solid fa-bath"></i>
+            </p>
+          </div>
+          <div class="propiedad">
+            <img src="img/imagen2.jpg" alt="Casa en venta" />
+            <h4>Vivienda de lujo frente al mar</h4>
+            <p>U$S 560.000</p>
+            <p class="iconhouse">
+              4 <i class="fa-solid fa-bed"></i> 3
+              <i class="fa-solid fa-bath"></i>
+            </p>
+          </div>
+          <div class="propiedad">
+            <img src="img/imagen3.jpg" alt="Casa en venta" />
+            <h4>Residencia premium en la costa</h4>
+            <p>U$S 1.300.000</p>
+            <p class="iconhouse">
+              6 <i class="fa-solid fa-bed"></i> 4
+              <i class="fa-solid fa-bath"></i>
+            </p>
+          </div>
+          <div class="propiedad">
+            <img src="img/imagen4.jpg" alt="Casa en venta" />
+            <h4>Residencia de estilo y confort</h4>
+            <p>U$S 1.200.000</p>
+            <p class="iconhouse">
+              6 <i class="fa-solid fa-bed"></i> 5
+              <i class="fa-solid fa-bath"></i>
+            </p>
+          </div>
+          <div class="propiedad">
+            <img src="img/imagen5.jpg" alt="Depto en alquiler" />
+            <h4>Vivienda moderna cerca de servicios</h4>
+            <p>U$S 810.000</p>
+            <p class="iconhouse">
+              3 <i class="fa-solid fa-bed"></i> 2
+              <i class="fa-solid fa-bath"></i>
+            </p>
+          </div>
+          <div class="propiedad">
+            <img src="img/imagen6.jpg" alt="Depto en alquiler" />
+            <h4>Hogar de lujo en el corazón de la ciudad</h4>
+            <p>U$S 780.000</p>
+            <p class="iconhouse">
+              3 <i class="fa-solid fa-bed"></i> 2
+              <i class="fa-solid fa-bath"></i>
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        © 2025 InmoHogar - Síguenos
+        <a href="https://facebook.com" target="_blank" class="faceicon">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="https://instagram.com" target="_blank" class="faceicon">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
