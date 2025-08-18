@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/bf8c94dfcd.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Alquilar | InmoHogar</title>
+  </head>
+  <body>
+    <header>
+      <a href="index.html"
+        ><img class="logo" src="img/logo-removebg-preview.png" alt="logo"
+      /></a>
+      <button class="abrir-menu" id="abrir">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <nav class="nav" id="nav">
+        <button class="cerrar-menu" id="cerrar">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <ul class="nav-list">
+          <li><a href="sobrenosotros.html">Nosotros</a></li>
+          <li><a href="alquilar.html">Alquilar</a></li>
+          <li><a href="comprar.html">Comprar</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="alquilar">
+        <h2 class="tituloalquiler">Alquiler de propiedades</h2>
+        <div class="filtros">
+          <label for="tipo">Filtrar por tipo:</label>
+          <select id="tipo-alquiler" name="tipo">
+            <option value="todos">Todos</option>
+            <option value="casa">Casa</option>
+            <option value="departamento">Departamento</option>
+            <option value="ph">PH</option>
+          </select>
+        </div>
+
+        <div class="propiedades-grid" id="lista-propiedades">
+          <div class="propiedad" data-tipo="casa">
+            <img src="img/alquiler/casa1.jpg" alt="Casa con jardín" />
+            <h4>Casa con jardín</h4>
+            <p>U$S 2.500/mes</p>
+            <p class="iconhouse">
+              4 <i class="fa-solid fa-bed"></i> 2
+              <i class="fa-solid fa-bath"></i>
+            </p>
+          </div>
+          <div class="propiedad" data-tipo="departamento">
+            <img src="img/alquiler/dpto1.jpg" alt="Departamento céntrico" />
+            <h4>Departamento céntrico</h4>
+            <p>U$S 1.200/mes</p>
+            <p class="iconhouse">
+              2 <i class="fa-solid fa-bed"></i> 1
+              <i class="fa-solid fa-bath"></i>
+            </p>
+          </div>
+          <div class="propiedad" data-tipo="ph">
+            <img src="img/alquiler/ph1.jpg" alt="PH moderno " />
+            <h4>PH moderno</h4>
+            <p>U$S 1.000/mes</p>
+            <p class="iconhouse">
+              1 <i class="fa-solid fa-bed"></i> 1
+              <i class="fa-solid fa-bath"></i>
+            </p>
+          </div>
+          <div class="propiedad" data-tipo="casa">
+            <img src="img/alquiler/casa2.jpg" alt="casa todos los accesos " />
+            <h4>Casa rústica</h4>
+            <p>U$S 980/mes</p>
+            <p class="iconhouse">
+              3 <i class="fa-solid fa-bed"></i> 1
+              <i class="fa-solid fa-bath"></i>
+            </p>
+          </div>
+          <div class="propiedad" data-tipo="departamento">
+            <img
+              src="img/alquiler/dpto2.jpg"
+              alt="estudio excelente ubicación"
+            />
+            <h4>Estudio reformado excelente ubicación</h4>
+            <p>U$S 750/mes</p>
+            <p class="iconhouse">
+              0 <i class="fa-solid fa-bed"></i> 1
+              <i class="fa-solid fa-bath"></i>
+            </p>
+          </div>
+          <div class="propiedad" data-tipo="casa">
+            <img src="img/alquiler/casa3.jpg" alt="casa con dos plantas" />
+            <h4>Casa de 2 plantas</h4>
+            <p>U$S 1.600/mes</p>
+            <p class="iconhouse">
+              4 <i class="fa-solid fa-bed"></i> 3
+              <i class="fa-solid fa-bath"></i>
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        © 2025 InmoHogar - Síguenos
+        <a href="https://facebook.com" target="_blank" class="faceicon">
+          <i class="fa-brands fa-facebook-f"></i>
+        </a>
+        <a href="https://instagram.com" target="_blank" class="faceicon">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
